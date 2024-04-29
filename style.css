@@ -1,7 +1,99 @@
-body {
-    background-color: aqua;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(199, 253, 253);
+}
+
+.main {
+    background-color: #ffaafa;
+    width: 800px;
+    height: 550px;
+    margin: 30px auto;
+}
+
+.dish-container{
+    
+    padding: 12px;
+}
+
+.dish-container > ul { 
+    list-style: none;
+    text-align: center;
+
+}
+
+.heading {
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+.palava-container,
+.sobolo-container,
+.jollof-container {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(127, 240, 202);
+}
+
+.palava,
+.sobolo,
+.jollof {
+    margin-top: 50px;
+    width: 200px;
+}
+
+.dish-image {
+    background-color: black;
+    /* padding: 12px; */
+}
+
+.pic-one,
+.pic-two,
+.pic-three {
+    margin-left: 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.disc-container,
+.ing-container {
+    display: inline-block;
+    width: 600px;
+    margin: 30px;
+}
+
+.disc-container {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.ing-container > ul{
+    background-color: coral;
+    padding: 10px;
+    list-style: inside;
+}
+
+.steps-container > ol{
+    background-color: aliceblue;
+    border: black solid 2px;
+    margin: 10px;
+    list-style: inside;
+    padding: 10px;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
 }
